@@ -1,0 +1,19 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #0068b1; /* WorldLink blue background */
+    padding: 20px;
+    padding-left: 70px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adding slight shadow */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo {
+    height: 25px;
+    width: auto;
+}
+

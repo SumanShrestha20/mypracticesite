@@ -1,0 +1,123 @@
+/* Existing footer styles */
+.footer {
+    background-color: #00539b;  /* Blue background for the footer */
+    color: white;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of footer sections */
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom p {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.appdownload {
+    max-width: 150px;
+    margin: 10px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .footer-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .footer-section {
+        margin: 10px 0; /* Margin adjustment for better spacing */
+        text-align: center; /* Center text within sections */
+        flex: none; /* Remove flex-grow */
+    }
+
+    .footer-section ul li {
+        margin-bottom: 8px; /* Adjust spacing for smaller screens */
+    }
+}
+
+/* Footer links styling */
+.footer a {
+    color: white;               /* Set link color to white */
+    text-decoration: none;      /* Remove underline from links */
+}
+
+/* Optional: Add hover effect */
+.footer a:hover {
+    color: #ffc545; /* Change color on hover if desired */
+    text-decoration: none; /* Ensure underline is still not added */
+}
+
+#footer-section a {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 12px;
+    margin: 0px 0px 10px;
+
+}
+
+.socialmediaicon {
+    width: auto;
+    height: 17px;
+    margin: -4px 0px;
+    padding-right: 10px;
+}
+
+.socialmediaicon2 {
+    width: auto;
+    height: 17px;
+    margin: -4px 0px;
+    padding-right: 1px;
+}

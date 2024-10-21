@@ -1,0 +1,56 @@
+/* Styling for the wrapper box around the button */
+.cta-wrapper {
+    width: 50%;
+    margin: 20px auto;
+    padding: 13px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for the "Get Online" button */
+.cta-button {
+    padding: 10px 20px;
+    background-color: #0068b1; /* Adjust color if needed */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #0b5ed7; /* Darker on hover */
+}
+
+/* Center the WorldLink logo */
+.cta-wrapper img {
+    max-height: 80px;
+}
+
+/* Optional: Media query to make it responsive */
+@media (max-width: 768px) {
+    .cta-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-button {
+        margin-top: 15px;
+    }
+}
+
+.cta-wrapper img {
+    max-height: 60px;  /* Set the maximum height */
+    max-width: 100%;   /* Prevent the image from overflowing */
+    height: 25px;      /* Maintain the aspect ratio */
+    width: auto;       /* Maintain the aspect ratio */
+}
+
+.btn-get-online {
+    margin: 6px;
+    padding: 6px 20px;
+}
